@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  padding-top: 100px;
+  flex: 1 0 auto;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+span{
+  margin: 0 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
